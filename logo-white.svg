@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" data-version="2" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:export>
+      <bx:file format="svg" href="#object-0"/>
+      <bx:file format="svg" href="#object-1" path="Untitled 2.svg"/>
+      <bx:file format="svg" href="#object-2" path="Untitled 3.svg" excluded="true"/>
+      <bx:file format="svg" href="#object-0" path="Untitled 4.svg" excluded="true"/>
+      <bx:file format="svg" href="#object-3" path="Untitled 5.svg" excluded="true"/>
+    </bx:export>
+  </defs>
+  <path d="M59.35 144.11q-12.46 0-21.64-6.1t-14.27-16.95q-5.09-10.85-5.09-25.33 0-14.47 5.09-25.39t14.67-16.95q9.58-6.03 22.85-6.03 9.65 0 17.89 3.82t13.6 11.19q5.36 7.37 5.9 17.95H74.09q-.53-6.29-4.09-10.58-3.55-4.29-9.58-4.29-5.62 0-9.98 3.55-4.35 3.55-6.83 10.25-2.48 6.7-2.48 16.48 0 9.65 2.54 16.42 2.55 6.77 7.17 10.32 4.63 3.55 10.66 3.55 4.95 0 8.44-1.41 3.48-1.41 6.7-4.22V109.8l-12.46.67.67-18.35h33.5v34.43q-6.03 8.18-15.62 12.87-9.58 4.69-23.38 4.69" paint-order="stroke" style="fill: rgb(255, 255, 255);" id="object-1"/>
+  <rect width="80" height="96.75" x="-40" y="-48.375" fill="none" rx="0" ry="0" transform="translate(58.85 96.235)" id="object-2"/>
+  <path d="M132.78 144.11q-12.19 0-20.77-4.36-8.57-4.35-13.13-12.26-4.55-7.9-4.55-18.49V48.97h22.11V109q0 5.23 2.01 8.98t5.69 5.83q3.69 2.07 8.64 2.07 5.1 0 8.71-2.07 3.62-2.08 5.63-5.83t2.01-8.98V48.97h22.11V109q0 10.59-4.55 18.49-4.56 7.91-13.14 12.26-8.57 4.36-20.77 4.36" paint-order="stroke" style="fill: rgb(255, 255, 255);" id="object-0"/>
+  <rect width="76.91" height="95.14" x="-38.455" y="-47.57" fill="none" rx="0" ry="0" transform="translate(133.285 97.04)" id="object-3"/>
+</svg>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Global Unblocking Bot</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar " role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">
+        <img src="logo-white.svg" alt="Logo">
+      </a>
+      </h2>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary" href="index.html#addbot">
+            <strong>Add Bot</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+<div class="content box" id="main">
+</div>
+<script src="https://cdn.jsdelivr.net/npm/showdown@latest/dist/showdown.min.js"></script> 
+<script>
+    fetch('privacy.md')
+        .then(response => response.text())
+        .then(text => {
+	var converter = new showdown.Converter();
+var html = converter.makeHtml(text);
+            document.getElementById('main').innerHTML = html;
+        });
+</script>
+</html>
