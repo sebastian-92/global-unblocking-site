@@ -25,6 +25,16 @@
       animation-range: 0vh 70vh;
     }
 
+    .fadeup {
+      animation: fadeInUp;
+      animation-timeline: view();
+      animation-range: 0vh 70vh;
+    }
+    .fadeupfoot {
+      animation: fadeInUp;
+      animation-timeline: view();
+      animation-range: 0vh 40vh;
+    }
     .flipenter {
       animation: flipInX;
       animation-timeline: view();
@@ -35,7 +45,8 @@
       animation: zoomInDown;
       animation-timeline: view();
       animation-range-end: 40vh;
-      }
+    }
+
     .installbutton:hover {
       animation: pulse 0.5s infinite;
     }
@@ -89,7 +100,7 @@
       </div>
     </section>
     <div class="container is-boxed mb-6">
-      <h2 class="title">But like, I need a visual.</h2>
+      <h2 class="title fadeup">But like, I need a visual.</h2>
       <div class="grid">
         <div class="column">
           <article class="message">
@@ -158,57 +169,57 @@
         </div>
       </div>
       <div class="container my-6">
-        <h2 class="title zid">Cool Features</h2>
+        <h2 class="title fadeup ">Cool Features</h2>
         <div class="columns is-multiline">
-          <div class="column is-one-third hoverfun">
+          <div class="fadeup column is-one-third hoverfun">
             <div class="box has-text-centered">Automatic Profanity Filtering</div>
           </div>
-          <div class="column is-one-third hoverfun">
+          <div class="fadeup column is-one-third hoverfun">
             <div class="box has-text-centered">Attachment Support</div>
           </div>
-          <div class="column is-one-third hoverfun">
+          <div class="fadeup column is-one-third hoverfun">
             <div class="box has-text-centered">Active Moderation</div>
           </div>
-          <div class="column is-one-third hoverfun">
+          <div class="fadeup column is-one-third hoverfun">
             <div class="box has-text-centered">Fun Commands</div>
           </div>
-          <div class="column is-one-third hoverfun">
+          <div class="fadeup column is-one-third hoverfun">
             <div class="box has-text-centered">/servers to get join links to connected servers</div>
           </div>
-          <div class="column is-one-third hoverfun">
+          <div class="fadeup column is-one-third hoverfun">
             <div class="box has-text-centered">Super cool</div>
           </div>
         </div>
       </div>
-      <div class="hero is-success is-rounded" style="margin-top: 20vh;" id="addbot">
+      <div class="fadeup hero is-success is-rounded" style="margin-top: 20vh;" id="addbot">
         <div class="hero-body">
           <h2 class="title">Add the bot!</h2>
         </div>
       </div>
-      <div class="box" style=" padding-top: 10vh; padding-bottom: 10vh; margin-bottom: 20vh;"">
+      <div class="fadeup box" style=" padding-top: 10vh; padding-bottom: 10vh; margin-bottom: 20vh;"">
         <p>To add the bot, click the button below</p>
         <button class=" button is-medium installbutton is-primary my-4"
         onclick="window.location.href='//discord.com/oauth2/authorize?client_id=1361826216293957795'">Install</button>
         <p>Then run <strong>/join</strong> in the channel you want to link!</p>
         <p class="mt-6 subtitle"><strong>It's that easy!</strong></p>
       </div>
-      <div class="py-6 box">
+      <div class="fadeup py-6 box">
         <div class="grid">
           <div class="cell">
             <h2 class="title has-text-centered">The Global Unblocking Team</h2>
-            <div class="content has-text-centered box">
+            <div class="fadeup content has-text-centered box">
               <h3 class="subtitle">Cbass92</h3>
               <p>Creator, Developer</p>
             </div>
-            <div class="content has-text-centered box">
+            <div class="fadeup content has-text-centered box">
               <h3 class="subtitle">Oreo</h3>
               <p>Developer</p>
             </div>
-            <div class="content has-text-centered box">
+            <div class="fadeup content has-text-centered box">
               <h3 class="subtitle">RHW</h3>
               <p>Admin</p>
             </div>
-            <div class="content has-text-centered box">
+            <div class="fadeup content has-text-centered box">
               <h3 class="subtitle">silly</h3>
               <p>Admin</p>
             </div>
@@ -217,35 +228,32 @@
   <footer class="footer">
     <div class="grid has-4-cols">
       <div class="col">
-        <div class="cell">
+        <div class="fadeupfoot cell">
           <p>
             <strong>Global Unblocking Bot</strong>
         </div>
       </div>
       <div class="col">
-        <div class="cell">
+        <div class="fadeupfoot cell">
           <p>
             <strong>Links</strong>
           </p>
         </div>
-        <div class="cell">
+        <div class="fadeupfoot cell">
           <a href="tos.html">Terms of service</a>
         </div>
-        <div class="cell">
+        <div class="fadeupfoot cell">
           <a href="privacy.html">Privacy policy</a>
         </div>
       </div>
       <div class="col">
-        <div class="cell">
+        <div class="fadeupfoot cell">
           <p>
             <strong>Contact</strong>
           </p>
         </div>
-        <div class="cell">
+        <div class="fadeupfoot cell">
           <a href="mailto:contact@cbass92.org">Email</a>
-        </div>
-        <div class="cell">
-          <a href="https://discord.gg/notsdkjfnsakdfnajsdfkjn">Discord Support Server</a>
         </div>
       </div>
     </div>
