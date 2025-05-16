@@ -6,9 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Global Unblocking Bot</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  </head>
   <style>
     html {
       scroll-behavior: smooth;
+    }
+
+    .hoverfun:hover {
+      animation: bounce 0.5s;
+    }
+
+    .bounceenter {
+      animation: bounceInLeft;
+      animation-timeline: view();
+      animation-range: 0vh 70vh;
+    }
+
+    .flipenter {
+      animation: flipInX;
+      animation-timeline: view();
+      animation-range: 0vh 40vh;
+    }
+
+    .zid {
+      animation: zoomInDown;
+      animation-timeline: view();
+      animation-range-end: 40vh;
+      }
+    .installbutton:hover {
+      animation: pulse 0.5s infinite;
     }
   </style>
 </head>
@@ -34,11 +63,11 @@
   </div>
   <section class="hero is-fullheight-with-navbar">
     <div class="hero-body">
-      <div class="container">
+      <div class="container animate__animated animate__lightSpeedInLeft">
         <h1 class="title">Global Unblocking</h1>
         <h2 class="subtitle">The Discord Bot to link the Unblocking Community!</h2>
       </div>
-      <div class="container">
+      <div class="container animate__animated animate__lightSpeedInRight">
         <button class="button is-large is-primary has-shadow"
           onclick="document.getElementById('addbot').scrollIntoView()">Add
           Bot</button> <button class="button is-large has-shadow"
@@ -49,7 +78,7 @@
     </div>
   </section>
   <section class="section" id="info">
-    <section class="hero is-medium">
+    <section class="bounceenter hingeexit hero is-medium">
       <div class="hero-body">
         <p class="title">What does the bot do?</p>
         <p class="subtitle mt-3">
@@ -68,12 +97,10 @@
               <p>Server 1</p>
             </div>
             <div class="message-body">
-              <div class="fixed-grid has-6-cols">
+              <div class="flipenter fixed-grid has-6-cols">
                 <div class="grid">
                   <div class="cell">
-                    <img
-                      src="https://cdn.discordapp.com/avatars/1231049528300535808/82601368c84f2d3cb18fd63848004580.png?size=2048"
-                      alt="pfp" class="is-rounded is-centered" width="50">
+                    <img src="oreo.png" alt="pfp" class="is-rounded is-centered" width="50">
                   </div>
                   <div class="cell is-col-span-5">
                     <p style="margin-bottom: 2px;">| Oreo |</p>
@@ -81,14 +108,13 @@
                   </div>
                 </div>
               </div>
-              <div class="fixed-grid has-6-cols">
+              <div class="flipenter fixed-grid has-6-cols">
                 <div class="grid">
                   <div class="cell">
-                    <img src="https://i.pinimg.com/474x/6d/10/55/6d1055752fcc74e0fd9af61b81d51c15.jpg" alt="pfp"
-                      class="is-rounded is-centered" width="50">
+                    <img src="cbass92.webp" alt="pfp" class="is-rounded is-centered" width="50">
                   </div>
                   <div class="cell is-col-span-5">
-                    <p style="margin-bottom: 2px;">Cbass93 - Server 2 <button
+                    <p style="margin-bottom: 2px;">Cbass92 - Server 2 <button
                         style="background-color: blue; color: white; border-radius: 3px;" class=" px-2"
                         disabled>APP</button></p>
                     <div class="box">Omg, we are chatting between servers!!!1!</div>
@@ -103,12 +129,10 @@
               <p>Server 2</p>
             </div>
             <div class="message-body">
-              <div class="fixed-grid has-6-cols">
+              <div class="flipenter fixed-grid has-6-cols">
                 <div class="grid">
                   <div class="cell">
-                    <img
-                      src="https://cdn.discordapp.com/avatars/1231049528300535808/82601368c84f2d3cb18fd63848004580.png?size=2048"
-                      alt="pfp" class="is-rounded is-centered" width="50">
+                    <img src="oreo.png" alt="pfp" class="is-rounded is-centered" width="50">
                   </div>
                   <div class="cell is-col-span-5">
                     <p style="margin-bottom: 2px;">| Oreo | - Server 1 <button
@@ -118,14 +142,13 @@
                   </div>
                 </div>
               </div>
-              <div class="fixed-grid has-6-cols">
+              <div class="flipenter fixed-grid has-6-cols">
                 <div class="grid">
                   <div class="cell">
-                    <img src="https://i.pinimg.com/474x/6d/10/55/6d1055752fcc74e0fd9af61b81d51c15.jpg" alt="pfp"
-                      class="is-rounded is-centered" width="50">
+                    <img src="cbass92.webp" alt="pfp" class="is-rounded is-centered" width="50">
                   </div>
                   <div class="cell is-col-span-5">
-                    <p style="margin-bottom: 2px;">Cbass93</p>
+                    <p style="margin-bottom: 2px;">Cbass92</p>
                     <div class="box">Omg, we are chatting between servers!!!1!</div>
                   </div>
                 </div>
@@ -135,36 +158,37 @@
         </div>
       </div>
       <div class="container my-6">
-        <h2 class="title">Cool Features</h2>
+        <h2 class="title zid">Cool Features</h2>
         <div class="columns is-multiline">
-          <div class="column is-one-third">
+          <div class="column is-one-third hoverfun">
             <div class="box has-text-centered">Automatic Profanity Filtering</div>
           </div>
-          <div class="column is-one-third">
+          <div class="column is-one-third hoverfun">
             <div class="box has-text-centered">Attachment Support</div>
           </div>
-          <div class="column is-one-third">
+          <div class="column is-one-third hoverfun">
             <div class="box has-text-centered">Active Moderation</div>
           </div>
-          <div class="column is-one-third">
+          <div class="column is-one-third hoverfun">
             <div class="box has-text-centered">Fun Commands</div>
           </div>
-          <div class="column is-one-third">
+          <div class="column is-one-third hoverfun">
             <div class="box has-text-centered">/servers to get join links to connected servers</div>
           </div>
-          <div class="column is-one-third">
+          <div class="column is-one-third hoverfun">
             <div class="box has-text-centered">Super cool</div>
           </div>
         </div>
       </div>
       <div class="hero is-success is-rounded" style="margin-top: 20vh;" id="addbot">
         <div class="hero-body">
-          <h2 class="title">What are you waiting for? Add the bot!</h2>
+          <h2 class="title">Add the bot!</h2>
         </div>
       </div>
       <div class="box" style=" padding-top: 10vh; padding-bottom: 10vh; margin-bottom: 20vh;"">
         <p>To add the bot, click the button below</p>
-        <button class=" button is-medium is-primary my-4" onclick="window.location.href='//discord.com/oauth2/authorize?client_id=1361826216293957795'">Install</button>
+        <button class=" button is-medium installbutton is-primary my-4"
+        onclick="window.location.href='//discord.com/oauth2/authorize?client_id=1361826216293957795'">Install</button>
         <p>Then run <strong>/join</strong> in the channel you want to link!</p>
         <p class="mt-6 subtitle"><strong>It's that easy!</strong></p>
       </div>
