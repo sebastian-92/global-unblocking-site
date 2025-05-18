@@ -30,7 +30,7 @@ Because we do not store personal data, there is nothing to request for access or
 
 For privacy-related questions or concerns, please contact:
 
-- Email: [EMAIL HERE WHEN I BUY THE DOMAIN]
+- Email: privacy@unblocker.chat
 
 ## Open Source
 
