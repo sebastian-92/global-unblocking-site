@@ -7,7 +7,7 @@ These terms of service ("Terms") apply to your access and use of the **Global Un
 
 ## Accepting these Terms
 
-If you access or use the Service, it means you agree to be bound by all of the terms below. So, before you use the Service, please read all of the terms. If you don't agree to all of the terms below, please do not use the Service. Also, if a term does not make sense to you, please let us know by e-mailing **[SUPPORT EMAIL ADDRESS]**.
+If you access or use the Service, it means you agree to be bound by all of the terms below. So, before you use the Service, please read all of the terms. If you don't agree to all of the terms below, please do not use the Service. Also, if a term does not make sense to you, please let us know by e-mailing **terms@unblocker.chat**.
 
 ## Changes to these Terms
 
@@ -19,7 +19,7 @@ If you continue to use the Service after the revised Terms go into effect, then 
 
 ## Privacy Policy
 
-For information about how we collect and use information about users of the Service, please check out our privacy policy available at **[INSERT LINK]**.
+For information about how we collect and use information about users of the Service, please check out our privacy policy available at **[https://unblocker.chat/privacy](https://unblocker.chat/privacy)**.
 
 ## Third-Party Services
 
@@ -100,4 +100,4 @@ Please let us know what you think of the Service, these Terms and, in general, *
 
 ## Questions & Contact Information
 
-Questions or comments about the Service may be directed to us at the email address **[SUPPORT EMAIL ADDRESS]**.
+Questions or comments about the Service may be directed to us at the email address **support@unblocker.chat**.
